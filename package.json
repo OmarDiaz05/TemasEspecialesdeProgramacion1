@@ -1,0 +1,19 @@
+{
+  "name": "serviciopizzas_tareanode",
+  "version": "1.0.0",
+  "description": "pizzas tarea",
+  "license": "ISC",
+  "author": "Omar Diaz",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "dev" : "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+    "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
