@@ -1,19 +1,20 @@
 {
-  "name": "serviciopizzas_tareanode",
+  "name": "serviciopizzas_tareanode v2",
   "version": "1.0.0",
-  "description": "pizzas tarea",
+  "description": "pizzas tarea refactorizado",
   "license": "ISC",
   "author": "Omar Diaz",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "node index.js",
-    "dev" : "nodemon index.js"
+    "dev": "nodemon index.js"
   },
   "dependencies": {
+    "cors": "^2.8.6",
     "express": "^5.2.1"
   },
-    "devDependencies": {
+  "devDependencies": {
     "nodemon": "^3.1.14"
   }
 }
